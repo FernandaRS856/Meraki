@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería Saludable Meraki</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .menu-icon {
+            font-size: 1.5rem;
+        }
+        main {
+            padding: 1rem;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .explore-button {
+            background-color: #FFB6C1;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 20px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .food-image {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            margin: 1rem 0;
+        }
+        .review {
+            background-color: #FFB6C1;
+            color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Meraki</div>
+        <div class="menu-icon">☰</div>
+    </header>
+
+    <main>
+        <h1>Cafetería Saludable Meraki</h1>
+        <p>Descubre opciones de menús accesibles que cuidan tu salud y bienestar en cada bocado.</p>
+        <button class="explore-button">Explorar</button>
+
+        <img src="path_to_salad_image.jpg" alt="Ensalada saludable" class="food-image">
+
+        <h2>Cafetería Saludable</h2>
+        <p>Ofrecemos menús accesibles y saludables para cuidar de tu bienestar sin afectar tu bolsillo.</p>
+
+        <h2>Snacks Nutritivos</h2>
+        <p>Deliciosas opciones de snacks que son perfectas para cualquier momento del día.</p>
+
+        <h2>Menús Saludables Diarios</h2>
+        <p>Opciones nutritivas y deliciosas para cada día de la semana.</p>
+
+        <h2>Bebidas Naturales</h2>
+        <p>Refrescos saludables que complementan tu comida y cuidan tu salud.</p>
+
+        <img src="path_to_drinks_image.jpg" alt="Bebidas naturales" class="food-image">
+
+        <div class="review">
+            <h3>★★★★★</h3>
+            <p>¡Me encanta Meraki! Sus opciones saludables y accesibles son perfectas para cuidar mi salud sin gastar mucho.</p>
+        </div>
+    </main>
+</body>
+</html>
